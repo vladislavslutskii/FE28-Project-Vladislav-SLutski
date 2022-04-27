@@ -1,0 +1,46 @@
+.section-teams-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 0 -15px;
+}
+.person {
+	margin-right: 15px;
+	margin-bottom: 15px;
+	width: 270px;
+	&:last-child {
+		margin-right: 0;
+	}
+	&-photo {
+		margin-bottom: 30px;
+	}
+	.person-content {
+		&-opinion {
+			font-family: 'Raleway';
+			font-weight: 400;
+			font-size: 18px;
+			color: #6C7279;
+			margin-bottom: 38px;
+		}
+		&-name {
+			font-family: 'Raleway';
+			font-weight: 700;
+			font-size: 24px;
+			color: #2D3033;
+		}
+		&-job {
+			margin-top: 6px;
+			font-family: 'Raleway';
+			font-weight: 400;
+			font-size: 18px;
+			color: #FF4343;
+			text-transform: uppercase;
+			margin-bottom: 18px;
+		}
+	}
+	
+}
+.social-icons {
+	display: flex;
+	padding: 0;
+}
