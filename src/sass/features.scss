@@ -8,6 +8,7 @@
 .features-item {
 	width: 370px;
 	margin-bottom: 20px;
+	margin-right: 15px;
 	&-content {
 		padding: 1px;
 			margin-bottom: 20px;
@@ -23,14 +24,14 @@
 		text-align: center;
 		font-family: 'Raleway';
 		font-weight: 900;
-		font-size: 24px;
+		font-size: 2.4rem;
 		text-transform: uppercase;
 		color: #2D3033;
 	}
 	&-text  {
 		font-family: 'Raleway';
 		font-weight: 400;
-		font-size: 18px;
+		font-size: 1.8rem;
 		color: #6C7279;
 		width: 370px;
 		line-height: 21px;
@@ -40,8 +41,5 @@
 		width: 380px;
 	}
 }
-.resp {
-	margin-right: 24px;
-	margin-left: 24px;
-}
+
 
