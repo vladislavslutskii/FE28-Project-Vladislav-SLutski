@@ -1,25 +1,24 @@
 .lastsection {
 	background: #353C65;
-	padding: 0;
+	padding: 50px;
 }
 .lastsection-wrap {
-	background: #353C65;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	align-items: flex-start;
+	justify-content: space-evenly;
 	margin: 0 -15px;
 }
 .location {
-	width: 32%;
-	padding: 70px 0 108px 0;
-	// margin: 0 15px;
+	display: inline-block;
+	width: 370px;
 	&-text {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		font-family: 'Raleway';
 		font-weight: 700;
-		font-size: 1.8rem;
+		font-size: 1.125rem;
 		color: #FFFFFF;
 		text-transform: uppercase;
 		margin-bottom: 29px;
@@ -27,7 +26,7 @@
 	&-adress {
 		font-family: 'Raleway';
 		font-weight: 400;
-		font-size: 1.8rem;
+		font-size: 1.125rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -36,13 +35,12 @@
 	}
 }
 .share {
-	margin: 0 15px;
-	width: 30%;
-	padding: 70px 0 0 0;
+	display: inline-block;
+	width: 300px;
 	&-text {
 		font-family: 'Raleway';
 		font-weight: 700;
-		font-size: 1.8rem;
+		font-size: 1.125rem;
 		text-align: center;
 		text-transform: uppercase;
 		color: #FFFFFF;
@@ -62,13 +60,12 @@
 	}
 }
 .about {
-	margin: 0 15px;
-	width: 30%;
-	padding: 70px 0 0 0;
+	display: inline-block;
+	width: 370px;
 	&-head {
 		font-family: 'Raleway';
 		font-weight: 700;
-		font-size: 1.8rem;
+		font-size: 1.125rem;
 		text-align: center;
 		text-transform: uppercase;
 		color: #FFFFFF;
@@ -77,8 +74,9 @@
 	&-text {
 		font-family: 'Raleway';
 		font-weight: 400;
-		font-size: 1.8rem;
+		font-size: 1.125rem;
 		text-align: center;
 		color: #FFFFFF;
 	}
 }
+

@@ -2,45 +2,50 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	margin: 0 15px;
+	
 }
 .person {
-	margin-right: 15px;
-	margin-bottom: 15px;
 	width: 270px;
-	&:last-child {
-		margin-right: 0;
+	margin: 0 15px 15px 0;
+	&-img {
+		width: 270px;
+		height: 270px;
+		object-fit: cover;
+		margin-bottom: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	&-photo {
-		margin-bottom: 30px;
+		width: 100%;
 	}
 	.person-content {
-		&-opinion {
-			font-family: 'Raleway';
-			font-weight: 400;
-			font-size: 1.8rem;
-			color: #6C7279;
-			margin-bottom: 38px;
-		}
 		&-name {
 			font-family: 'Raleway';
 			font-weight: 700;
-			font-size: 2.4rem;
+			font-size: 1.5rem;
 			color: #2D3033;
+			margin-bottom: 6px;
 		}
 		&-job {
-			margin-top: 6px;
 			font-family: 'Raleway';
 			font-weight: 400;
-			font-size: 1.8rem;
 			color: #FF4343;
 			text-transform: uppercase;
-			margin-bottom: 18px;
+			font-size: 1.125rem;
+		}
+		&-opinion {
+			font-family: 'Raleway';
+			font-weight: 400;
+			font-size: 1.125rem;
+			color: #6C7279;
+		}
+		&-op {
+			margin-top: 18px;
+			margin-bottom: 38px;
 		}
 	}
-	
 }
 .social-icons {
 	display: flex;
-	padding: 0;
 }

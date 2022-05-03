@@ -1,45 +1,38 @@
 .features-wrap {
 	display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 -15px;
-	
+	margin: 0 -15px;
 }
 .features-item {
 	width: 370px;
-	margin-bottom: 20px;
-	margin-right: 15px;
-	&-content {
-		padding: 1px;
-			margin-bottom: 20px;
+	margin: 0 10px;
+	margin-bottom: 15px;
+	&:nth-child(+n+4) {
+		margin-bottom: 0;
 	}
+
 	&-picture {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin-bottom: 41px;
+		margin-bottom: 29px;
 	}
 	&-title {
 		margin-bottom: 21px;
 		text-align: center;
 		font-family: 'Raleway';
 		font-weight: 900;
-		font-size: 2.4rem;
+		font-size: 1.5rem;
 		text-transform: uppercase;
 		color: #2D3033;
 	}
-	&-text  {
+	&-text {
 		font-family: 'Raleway';
 		font-weight: 400;
-		font-size: 1.8rem;
+		font-size: 1.125rem;
 		color: #6C7279;
-		width: 370px;
+		text-align: center;
 		line-height: 21px;
 	}
-	p {
-		text-align: center;
-		width: 380px;
-	}
 }
-
-
